@@ -92,7 +92,7 @@ export default function ActivityDetail() {
 
           {/* Map preview */}
           <div className="mt-4 rounded-xl overflow-hidden">
-            <img src="/map-preview.jpg" alt="地圖" className="w-full h-[120px] object-cover" />
+            <img src="./map-preview.jpg" alt="地圖" className="w-full h-[120px] object-cover" />
           </div>
 
           {/* Description */}
@@ -113,7 +113,7 @@ export default function ActivityDetail() {
                 已報名 {activity.participants}/{activity.maxParticipants}人
               </span>
               <div className="flex -space-x-2">
-                {['/avatar-1.jpg', '/avatar-2.jpg', '/avatar-3.jpg'].map((a, i) => (
+                {['./avatar-1.jpg', './avatar-2.jpg', './avatar-3.jpg'].map((a, i) => (
                   <img key={i} src={a} alt="" className="w-7 h-7 rounded-full border-2 border-white object-cover" />
                 ))}
                 {activity.participants > 3 && (

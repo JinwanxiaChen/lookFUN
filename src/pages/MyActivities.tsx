@@ -28,7 +28,7 @@ const mockMyActivities: MyActivityItem[] = [
   {
     id: 'act-1',
     title: '週末山野徒步',
-    image: '/activity-hiking.jpg',
+    image: 'activity-hiking.jpg',
     date: '週六',
     time: '08:00',
     location: '茂名市電白區',
@@ -39,7 +39,7 @@ const mockMyActivities: MyActivityItem[] = [
   {
     id: 'act-3',
     title: '樹下讀書分享會',
-    image: '/activity-reading.jpg',
+    image: 'activity-reading.jpg',
     date: '週六',
     time: '15:00',
     location: '茂名市圖書館後花園',
@@ -50,7 +50,7 @@ const mockMyActivities: MyActivityItem[] = [
   {
     id: 'act-6',
     title: '戶外茶藝體驗',
-    image: '/activity-tea.jpg',
+    image: 'activity-tea.jpg',
     date: '上週六',
     time: '10:00',
     location: '茂名市人民公園',
@@ -61,7 +61,7 @@ const mockMyActivities: MyActivityItem[] = [
   {
     id: 'act-2',
     title: '親子草地野餐會',
-    image: '/activity-picnic.jpg',
+    image: 'activity-picnic.jpg',
     date: '上週日',
     time: '14:00',
     location: '茂名市森林公園',

@@ -41,10 +41,10 @@ export interface Review {
 }
 
 export const cities: City[] = [
-  { id: 'maoming', name: '茂名市', image: '/city-maoming.jpg' },
-  { id: 'guangzhou', name: '廣州市', image: '/city-guangzhou.jpg' },
-  { id: 'shenzhen', name: '深圳市', image: '/city-shenzhen.jpg' },
-  { id: 'hangzhou', name: '杭州市', image: '/city-hangzhou.jpg' },
+  { id: 'maoming', name: '茂名市', image: 'city-maoming.jpg' },
+  { id: 'guangzhou', name: '廣州市', image: 'city-guangzhou.jpg' },
+  { id: 'shenzhen', name: '深圳市', image: 'city-shenzhen.jpg' },
+  { id: 'hangzhou', name: '杭州市', image: 'city-hangzhou.jpg' },
 ];
 
 export const capsules: Capsule[] = [
@@ -53,7 +53,7 @@ export const capsules: Capsule[] = [
     name: '山野行者',
     tags: ['戶外'],
     memberCount: 156,
-    image: '/activity-hiking.jpg',
+    image: 'activity-hiking.jpg',
     description: '熱愛山野徒步的戶外愛好者聚集地',
   },
   {
@@ -61,7 +61,7 @@ export const capsules: Capsule[] = [
     name: '親子樂園',
     tags: ['親子', '家庭'],
     memberCount: 234,
-    image: '/activity-picnic.jpg',
+    image: 'activity-picnic.jpg',
     description: '專為親子家庭打造的活動空間',
   },
   {
@@ -69,7 +69,7 @@ export const capsules: Capsule[] = [
     name: '靜心閱讀',
     tags: ['閱讀'],
     memberCount: 89,
-    image: '/activity-reading.jpg',
+    image: 'activity-reading.jpg',
     description: '在自然中享受閱讀的寧靜時光',
   },
   {
@@ -77,7 +77,7 @@ export const capsules: Capsule[] = [
     name: '兒童探索',
     tags: ['兒童'],
     memberCount: 178,
-    image: '/activity-kids.jpg',
+    image: 'activity-kids.jpg',
     description: '讓孩子在自然中探索與學習',
   },
   {
@@ -85,7 +85,7 @@ export const capsules: Capsule[] = [
     name: '騎行天下',
     tags: ['戶外'],
     memberCount: 112,
-    image: '/activity-cycling.jpg',
+    image: 'activity-cycling.jpg',
     description: '騎行愛好者的活動社群',
   },
   {
@@ -93,7 +93,7 @@ export const capsules: Capsule[] = [
     name: '茶道雅集',
     tags: ['家庭'],
     memberCount: 67,
-    image: '/activity-tea.jpg',
+    image: 'activity-tea.jpg',
     description: '以茶會友，品味東方雅韻',
   },
   {
@@ -101,7 +101,7 @@ export const capsules: Capsule[] = [
     name: '露營者聯盟',
     tags: ['戶外'],
     memberCount: 145,
-    image: '/activity-camping.jpg',
+    image: 'activity-camping.jpg',
     description: '露營愛好者交流與活動平台',
   },
   {
@@ -109,7 +109,7 @@ export const capsules: Capsule[] = [
     name: '繪本時光',
     tags: ['幼兒'],
     memberCount: 203,
-    image: '/activity-reading.jpg',
+    image: 'activity-reading.jpg',
     description: '親子共讀繪本的溫馨時光',
   },
 ];
@@ -118,7 +118,7 @@ export const activities: Activity[] = [
   {
     id: 'act-1',
     title: '週末山野徒步',
-    image: '/activity-hiking.jpg',
+    image: 'activity-hiking.jpg',
     date: '週六',
     time: '08:00',
     location: '茂名市電白區',
@@ -133,7 +133,7 @@ export const activities: Activity[] = [
   {
     id: 'act-2',
     title: '親子草地野餐會',
-    image: '/activity-picnic.jpg',
+    image: 'activity-picnic.jpg',
     date: '週日',
     time: '14:00',
     location: '茂名市森林公園',
@@ -148,7 +148,7 @@ export const activities: Activity[] = [
   {
     id: 'act-3',
     title: '樹下讀書分享會',
-    image: '/activity-reading.jpg',
+    image: 'activity-reading.jpg',
     date: '週六',
     time: '15:00',
     location: '茂名市圖書館後花園',
@@ -163,7 +163,7 @@ export const activities: Activity[] = [
   {
     id: 'act-4',
     title: '兒童自然探索營',
-    image: '/activity-kids.jpg',
+    image: 'activity-kids.jpg',
     date: '週六',
     time: '09:00',
     location: '茂名市植物園',
@@ -178,7 +178,7 @@ export const activities: Activity[] = [
   {
     id: 'act-5',
     title: '濱海自行車漫遊',
-    image: '/activity-cycling.jpg',
+    image: 'activity-cycling.jpg',
     date: '週日',
     time: '07:00',
     location: '茂名市海濱大道',
@@ -193,7 +193,7 @@ export const activities: Activity[] = [
   {
     id: 'act-6',
     title: '戶外茶藝體驗',
-    image: '/activity-tea.jpg',
+    image: 'activity-tea.jpg',
     date: '週六',
     time: '10:00',
     location: '茂名市人民公園',
@@ -208,7 +208,7 @@ export const activities: Activity[] = [
   {
     id: 'act-7',
     title: '親子露營週末',
-    image: '/activity-camping.jpg',
+    image: 'activity-camping.jpg',
     date: '週六',
     time: '16:00',
     location: '茂名市西湖露營地',
@@ -223,7 +223,7 @@ export const activities: Activity[] = [
   {
     id: 'act-8',
     title: '親子繪本共讀',
-    image: '/activity-reading.jpg',
+    image: 'activity-reading.jpg',
     date: '週日',
     time: '10:00',
     location: '茂名市兒童圖書館',
@@ -238,7 +238,7 @@ export const activities: Activity[] = [
   {
     id: 'act-9',
     title: '清晨森林瑜伽',
-    image: '/activity-hiking.jpg',
+    image: 'activity-hiking.jpg',
     date: '週日',
     time: '06:30',
     location: '茂名市森林公園',
@@ -253,7 +253,7 @@ export const activities: Activity[] = [
   {
     id: 'act-10',
     title: '兒童昆蟲觀察日',
-    image: '/activity-kids.jpg',
+    image: 'activity-kids.jpg',
     date: '週六',
     time: '14:00',
     location: '茂名市濕地公園',
@@ -268,7 +268,7 @@ export const activities: Activity[] = [
   {
     id: 'act-11',
     title: '黃昏湖邊騎行',
-    image: '/activity-cycling.jpg',
+    image: 'activity-cycling.jpg',
     date: '週日',
     time: '17:00',
     location: '茂名市西湖公園',
@@ -283,7 +283,7 @@ export const activities: Activity[] = [
   {
     id: 'act-12',
     title: '夏日親子戲水',
-    image: '/activity-picnic.jpg',
+    image: 'activity-picnic.jpg',
     date: '週六',
     time: '11:00',
     location: '茂名市海濱公園',
@@ -301,7 +301,7 @@ export const reviews: Review[] = [
   {
     id: 'rev-1',
     userName: '小雨',
-    avatar: '/avatar-1.jpg',
+    avatar: 'avatar-1.jpg',
     rating: 5,
     text: '非常棒的徒步活動！領隊很專業，路線風景優美，認識了很多志同道合的朋友。',
     timestamp: '2024-03-15',
@@ -311,7 +311,7 @@ export const reviews: Review[] = [
   {
     id: 'rev-2',
     userName: '山林行者',
-    avatar: '/avatar-2.jpg',
+    avatar: 'avatar-2.jpg',
     rating: 5,
     text: '孩子玩得很開心，活動安排很用心，下次還會參加！',
     timestamp: '2024-03-10',
@@ -321,7 +321,7 @@ export const reviews: Review[] = [
   {
     id: 'rev-3',
     userName: '書香滿園',
-    avatar: '/avatar-3.jpg',
+    avatar: 'avatar-3.jpg',
     rating: 4,
     text: '在樹下讀書的感覺太棒了，氛圍很好，推薦給所有愛書人。',
     timestamp: '2024-03-08',
@@ -331,7 +331,7 @@ export const reviews: Review[] = [
   {
     id: 'rev-4',
     userName: '探索小達人',
-    avatar: '/avatar-4.jpg',
+    avatar: 'avatar-4.jpg',
     rating: 5,
     text: '孩子學到了很多自然知識，導師很有耐心，活動設計很有教育意義。',
     timestamp: '2024-03-05',
@@ -341,7 +341,7 @@ export const reviews: Review[] = [
   {
     id: 'rev-5',
     userName: '騎行俠',
-    avatar: '/avatar-5.jpg',
+    avatar: 'avatar-5.jpg',
     rating: 4,
     text: '路線規劃不錯，風景很美，但建議可以增加休息點。',
     timestamp: '2024-03-01',
@@ -351,7 +351,7 @@ export const reviews: Review[] = [
   {
     id: 'rev-6',
     userName: '茶韻飄香',
-    avatar: '/avatar-1.jpg',
+    avatar: 'avatar-1.jpg',
     rating: 5,
     text: '茶藝師很專業，學到了很多茶道知識，環境也很優美。',
     timestamp: '2024-02-28',
@@ -361,7 +361,7 @@ export const reviews: Review[] = [
   {
     id: 'rev-7',
     userName: '露營達人',
-    avatar: '/avatar-2.jpg',
+    avatar: 'avatar-2.jpg',
     rating: 5,
     text: '露營設備齊全，晚上看星星太美了！',
     timestamp: '2024-02-25',
@@ -371,7 +371,7 @@ export const reviews: Review[] = [
   {
     id: 'rev-8',
     userName: '繪本媽媽',
-    avatar: '/avatar-3.jpg',
+    avatar: 'avatar-3.jpg',
     rating: 5,
     text: '孩子很喜歡繪本故事時間，講師講得很生動！',
     timestamp: '2024-02-20',
@@ -383,7 +383,7 @@ export const reviews: Review[] = [
 export const currentUser = {
   id: 'user-1',
   name: '小明',
-  avatar: '/avatar-4.jpg',
+  avatar: 'avatar-4.jpg',
   phone: '138****8888',
 };
 
