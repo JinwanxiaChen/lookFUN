@@ -68,7 +68,7 @@ export default function Explore() {
       <section className="mt-6 px-4">
         <div className="flex items-center justify-between mb-3">
           <h2 className="font-serif font-semibold text-lg text-ink-800">
-            附近的空間膠囊
+            附近的空間艙
           </h2>
           <button
             onClick={() => navigate('/search')}

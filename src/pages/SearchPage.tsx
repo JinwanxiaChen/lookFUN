@@ -51,7 +51,7 @@ export default function SearchPage() {
               type="text"
               value={query}
               onChange={e => handleSearch(e.target.value)}
-              placeholder="搜索活動、膠囊、標籤..."
+              placeholder="搜索活動、空間艙、標籤..."
               autoFocus
               className="w-full h-10 pl-9 pr-8 bg-white border border-matcha-200 rounded-full text-sm placeholder:text-ink-300 focus:outline-none focus:border-matcha-500 transition-colors"
             />
@@ -86,7 +86,7 @@ export default function SearchPage() {
 
             {/* Suggested Capsules */}
             <div className="mt-8">
-              <h3 className="font-serif font-semibold text-base text-ink-800 mb-3">推薦膠囊</h3>
+              <h3 className="font-serif font-semibold text-base text-ink-800 mb-3">推薦空間艙</h3>
               <div className="flex flex-col gap-3">
                 {capsules.slice(0, 4).map((capsule, i) => (
                   <motion.button

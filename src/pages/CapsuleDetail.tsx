@@ -19,7 +19,7 @@ export default function CapsuleDetail() {
   if (!capsule) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[100dvh]">
-        <p className="text-ink-400">膠囊不存在</p>
+        <p className="text-ink-400">空間艙不存在</p>
         <button onClick={() => navigate(-1)} className="mt-4 text-matcha-500 text-sm">返回</button>
       </div>
     );

@@ -50,7 +50,7 @@ export default function Profile() {
           <div className="w-px bg-matcha-100" />
           <div className="flex-1 text-center">
             <p className="font-semibold text-lg text-ink-800">2</p>
-            <p className="text-xs text-ink-400 mt-0.5">加入膠囊</p>
+            <p className="text-xs text-ink-400 mt-0.5">加入空間艙</p>
           </div>
           <div className="w-px bg-matcha-100" />
           <div className="flex-1 text-center">
